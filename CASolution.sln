@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34601.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SourceCode", "SourceCode", "{19DC7775-FAA6-4DC7-AD42-D5551CA59378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASolution.SharedKernel", "CASolution.SharedKernel\CASolution.SharedKernel.csproj", "{C4D41DE3-DF9D-4995-82B4-297B03C369B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{3014B872-0E60-499C-ADDD-6F27B2CCE784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4D41DE3-DF9D-4995-82B4-297B03C369B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D41DE3-DF9D-4995-82B4-297B03C369B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D41DE3-DF9D-4995-82B4-297B03C369B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D41DE3-DF9D-4995-82B4-297B03C369B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4D41DE3-DF9D-4995-82B4-297B03C369B9} = {3014B872-0E60-499C-ADDD-6F27B2CCE784}
+		{3014B872-0E60-499C-ADDD-6F27B2CCE784} = {19DC7775-FAA6-4DC7-AD42-D5551CA59378}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E1A327E-1CD6-4A5A-AFDD-A297BE63A788}
+	EndGlobalSection
+EndGlobal
