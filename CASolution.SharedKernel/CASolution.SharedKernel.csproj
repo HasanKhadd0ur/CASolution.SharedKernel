@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -9,6 +9,10 @@
     <Folder Include="Entities\" />
     <Folder Include="CQRS\" />
     <Folder Include="DomainErrors\" />
+    <Folder Include="DomainExceptions\" />
+    <Folder Include="ValueObjects\" />
+    <Folder Include="Specification\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
