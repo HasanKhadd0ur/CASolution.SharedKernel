@@ -1,7 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DomainEvents\" />
+    <Folder Include="Entities\" />
+    <Folder Include="CQRS\" />
+    <Folder Include="DomainErrors\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Result" Version="7.0.0" />
+    <PackageReference Include="MediatR" Version="5.1.0" />
+  </ItemGroup>
 
 </Project>
