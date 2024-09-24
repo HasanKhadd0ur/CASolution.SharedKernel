@@ -10,6 +10,7 @@
     <Folder Include="CQRS\" />
     <Folder Include="DomainErrors\" />
     <Folder Include="DomainExceptions\" />
+    <Folder Include="DomainAggregate\" />
     <Folder Include="ValueObjects\" />
     <Folder Include="Specification\" />
     <Folder Include="Repositories\" />
