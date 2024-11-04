@@ -1,7 +1,7 @@
 ﻿namespace CASolution.SharedKernel.ValueObjects
 {
     public record Money(
-        int Ammount,
+        int Amount,
         string Currency
         );
 }
